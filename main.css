@@ -1,0 +1,231 @@
+/* General Styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header Styles */
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+}
+.small-banner {
+    text-align: center; /* Center align the content */
+    background-color: #f0f0f0; /* Set the background color */
+    padding: 20px; /* Add padding to the banner for spacing */
+}
+
+.small-banner img {
+    max-width: 100%; /* Ensure the image fits within the container */
+    height: auto;
+}
+
+.small-banner p {
+    margin-top: 10px; /* Adjust the top margin for spacing */
+}
+
+/* Navigation Styles */
+
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-nav .nav-link {
+    color: #495057;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Main Content Styles */
+
+.container {
+    margin-top: 20px;
+}
+
+/* Tab Styles */
+
+.tab_box {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.tab_btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tab_btn.active {
+    background-color: #0056b3;
+}
+
+/* Content Box Styles */
+
+.content_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* FAQ Styles */
+
+.faq-container {
+    margin-top: 50px;
+}
+
+.faq-question {
+    text-align: left;
+}
+
+/* Carousel Styles */
+
+#carouselExampleIndicators,
+#imageCarousel,
+#recommendedCarousel {
+    margin-top: 50px;
+}
+.grid-container {
+    display: grid;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* This ensures that the grid container takes up the full viewport height */
+}
+
+#imageCarousel {
+    /* You can keep your existing carousel CSS here */
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-item {
+    margin-bottom: 20px;
+}
+
+.footer-head {
+    color: #007bff;
+}
+
+.tags-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tags-list li {
+    margin-bottom: 5px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-right: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-links a:hover {
+    color: #a8a8a8;
+}
+
+/* Recommended Carousel Card Styles */
+
+.card {
+    margin-bottom: 20px;
+    
+}
+
+/* Responsive Carousel Image Styles */
+
+.carousel-inner img {
+    max-height: 400px;
+    object-fit: cover;
+}
+/* overview */
+.content-container {
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+
+}
+
+.content-left {
+    flex: 1;
+    padding: 100px;
+    padding-top: 20px;
+}
+
+.content-right {
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
+}
+.content-right img {
+    max-width: 100%; /* Adjust the percentage as needed to control the image size */
+    height: auto;
+}
+
+/* Additional styling can be applied as needed */
+
+
+/* Recommended Carousel Image Styles */
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 12; /* Assuming your grid is 12 columns wide */
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+#recommendedCarousel .carousel-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+/* Recommended Carousel Item Styles */
+
+#recommendedCarousel .carousel-item {
+    width: 100%;
+}
+
+/* Bootstrap Carousel Control Styles */
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+/* Copyright Text Styles */
+
+footer p {
+    margin: 20px 0;
+}
